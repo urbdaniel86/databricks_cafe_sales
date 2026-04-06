@@ -25,8 +25,7 @@ The project follows the Medallion Architecture to progressively enrich and clean
 * **Objective:** Serve highly refined, aggregated data for downstream analytics and reporting.
 * **Key Tables:**
   * **Temporal Patterns:** Aggregates transactions by day of the week and month to identify peak sales periods and trends.
-  * **Outlier Detection:** Flags anomalous `Total Spent` transactions using the Interquartile Range (IQR) method.
-  * **Item Performance:** Ranks the most and least frequent items sold.
+  * * **Item Performance:** Ranks the most and least frequent items sold.
 
 ## 🛠️ Tech Stack
 * **Compute & Orchestration:** Databricks SQL / Databricks Free Edition
